@@ -1,0 +1,16 @@
+{
+  "name": "erraroo-node-outdated",
+  "version": "1.0.0",
+  "description": "dumps outdated package.json and bower.json packages",
+  "bin": {
+    "erraroo-node-outdated": "./lib/main.js"
+  },
+  "author": "ben",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "1.5.3",
+    "npm": "3.3.6",
+    "rsvp": "3.1.0",
+    "semver": "5.0.3"
+  }
+}
